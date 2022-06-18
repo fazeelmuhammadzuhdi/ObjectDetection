@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDC5C5"
+    tools:context=".StatusFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESKRPISI ANGGOTA KELOMPOK"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+    <!-- TODO: Update blank fragment layout -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/profil" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text="Fazeel Muhammad Zuhdi"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:text="Deployment"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilee"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/gambar2" />
+
+    <TextView
+        android:id="@+id/titlee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profilee"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text="Yudhi Ahmadi"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlee"
+        android:layout_centerHorizontal="true"
+        android:text="Training Data"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileee"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/descc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/gambar1" />
+
+    <TextView
+        android:id="@+id/titleee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileee"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text="Auliyya Aini"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/desccc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleee"
+        android:layout_centerHorizontal="true"
+        android:text="UI / UX"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileeee"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/desccc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/gambar3" />
+
+    <TextView
+        android:id="@+id/titleeee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileeee"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Tita Rahmawati"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descccc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleeee"
+        android:layout_centerHorizontal="true"
+        android:text="Labeling"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileeeee"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/descccc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/gambar5" />
+
+    <TextView
+        android:id="@+id/titleeeee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileeeee"
+        android:layout_centerHorizontal="true"
+        android:text="Sjin Phen"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/desccccc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleeeee"
+        android:layout_centerHorizontal="true"
+        android:text="Konversi Model"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+</RelativeLayout>
